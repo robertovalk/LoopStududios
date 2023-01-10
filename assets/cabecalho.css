@@ -1,0 +1,176 @@
+
+.cabecalho__banner {
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 131vh;
+    background-position: 1% 0%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.banner__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 0 0 0;
+}
+
+.cabecalho__menu-hamburger {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 2em;
+    cursor: pointer;
+}
+
+.lista__menu-banner {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+.lista__menuTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 8em;
+}
+
+
+.lista__item-banner {
+    padding: 1em;
+}
+
+.last__item-banner {
+    padding-bottom: 14em;
+}
+
+.menuLogo-botao:checked ~ .lista__menu-banner{
+    display: block;
+}
+
+.lista__item-banner, .lista__menuTitulo {
+    background-color: #000;
+}
+
+.cabecalho__menu-close {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon-close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    background-color: #000;
+    cursor: pointer;
+}
+
+
+.menuLogo-botao-close {
+    display: none;
+}
+
+
+.lista-link {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-left: 2em;
+    transition: all .1s ease-out;
+}
+
+.lista-link:hover {
+    text-decoration: underline;
+    margin-bottom: .5em;
+}
+
+.menuLogo-botao {
+    display: none;
+}
+
+.cabecalho__banner h1 {
+    color: #FFF;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 1em 0.5em;
+    margin: 5em 0.9em;
+  
+}
+
+.cabecalho__banner-desktop {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__banner {
+        display: none;
+    }
+
+    .cabecalho__banner-desktop {
+        display: block;
+    }
+
+    .cabecalho__banner-desktop {
+        background-image: url(../images/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1% 0%;
+        padding-bottom: 4em;
+        position: relative;
+    }
+
+    .cabecalho__banner-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+    }
+
+    .banner__container-lista {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        
+    }
+
+    .banner__container-lista-link {
+        color: #FFF;
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        transition: all 1s ease-in;
+    }
+
+    .banner__container-lista-link:hover {
+    
+        text-decoration: underline;
+        margin-bottom: .5em;
+      
+    }
+
+
+    .banner__title-desktop {
+        color: #FFF;
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        font-size: 24px;
+        text-transform: uppercase;
+        border: solid 1px #fff;
+        display: flex;
+        align-items: center;
+        font-size: 42px;
+        justify-content: space-between;
+        padding: 1em 1em 1em 1em;
+        margin: 1em 13em 1em 1em;
+    }
+
+}

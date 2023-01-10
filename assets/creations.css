@@ -1,0 +1,227 @@
+.creations {
+    margin-top: 7em;
+}
+
+.creations__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1em;
+
+}
+
+.creations__img {
+    display: inline-flex;
+    margin: auto 2em;
+}
+
+.deep-earth {
+    background-image: url(../images/mobile/image-deep-earth.jpg);
+ 
+    
+}
+
+.night__arcade {
+    background-image: url(../images/mobile/image-night-arcade.jpg);
+
+}
+
+.soccer__team-vr {
+    background-image: url(../images/mobile/image-soccer-team.jpg);
+
+}
+
+.the__grid {
+    background-image: url(../images/mobile/image-grid.jpg);
+
+}
+
+.from__up-above-vr {
+    background-image: url(../images/mobile/image-from-above.jpg);
+ 
+}
+
+.pocket__borealis {
+    background-image: url(../images/mobile/image-pocket-borealis.jpg);
+ 
+}
+
+.the__curiosity {
+    background-image: url(../images/mobile/image-curiosity.jpg);
+ 
+}
+
+.make__it-fisheye {
+    background-image: url(../images/mobile/image-fisheye.jpg);
+
+}
+
+.deep-earth, 
+.night__arcade, 
+.soccer__team-vr, 
+.the__grid, 
+.from__up-above-vr, 
+.pocket__borealis, .the__curiosity, .make__it-fisheye {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5em 15em 1em 0em;
+   font-family: 'Josefin Sans';
+   margin-bottom: 1em;
+
+
+}
+
+.creations__link {
+    color: #fff;
+}
+
+.creations__figcaption {
+    font-size: 20px;
+    margin-left: 1em;
+}
+
+.creations__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 2em;
+    margin-bottom: 5em;
+}
+
+.button__creations {
+    padding: 0.5em 3em 0.5em 3em;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s ease-out;
+  
+}
+
+.button__creations:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .creations__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto 2em;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .creations {
+        display: none;
+    }
+
+    .creations__container-desktop {
+        margin: 0 2em 8em 2em;
+    }
+
+    .creations__header-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Josefin Sans';
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: 5em 0.5em 3em 0.5em;
+    }
+
+    .button__creations-desktop {
+        padding: 0.5em 3em 0.5em 3em;
+        font-family: 'Alata';
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 1px solid;
+        outline: none;
+        cursor: pointer;
+        transition: all .5s ease-out;
+    }
+
+    .button__creations-desktop:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .desktop__intro-img {
+        height: 500px;
+        width: 750px;
+        background-position: 0%;
+    }
+
+    .deep-earth-desktop {
+        background-image: url(../images/desktop/image-deep-earth.jpg);
+     
+        
+    }
+    
+    .night__arcade-desktop {
+        background-image: url(../images/desktop/image-night-arcade.jpg);
+    
+    }
+    
+    .soccer__team-vr-desktop {
+        background-image: url(../images/desktop/image-soccer-team.jpg);
+    
+    }
+    
+    .the__grid-desktop {
+        background-image: url(../images/desktop/image-grid.jpg);
+    
+    }
+    
+    .from__up-above-vr-desktop {
+        background-image: url(../images/desktop/image-from-above.jpg);
+     
+    }
+    
+    .pocket__borealis-desktop {
+        background-image: url(../images/desktop/image-pocket-borealis.jpg);
+     
+    }
+    
+    .the__curiosity-desktop {
+        background-image: url(../images/desktop/image-curiosity.jpg);
+     
+    }
+    
+    .make__it-fisheye-desktop {
+        background-image: url(../images/desktop/image-fisheye.jpg);
+    
+    }
+
+    .deep-earth-desktop, 
+    .night__arcade-desktop, 
+    .soccer__team-vr-desktop, 
+    .the__grid-desktop, 
+    .from__up-above-vr-desktop, 
+    .pocket__borealis-desktop, .the__curiosity-desktop, .make__it-fisheye-desktop {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 19em 5em 0em 0em;
+        font-family: "Josefin Sans";
+        margin-bottom: 1em;
+        padding-bottom: 4em;
+    }
+
+    .creations__list-desktop {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1em;
+    }
+
+
+}

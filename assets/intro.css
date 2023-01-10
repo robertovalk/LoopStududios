@@ -1,0 +1,77 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__home {
+    display: inline-flex;
+    width: 30em;
+    padding: 9em 5em 3em 5em;
+    
+}
+
+.home__text {
+    text-align: center;
+    margin: 0 3em 0 3em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.intro__title {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+
+.desktop__intro {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .intro {
+        display: none;
+    }
+
+    .intro__desktop {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+        gap: 3em;
+        padding: 10em 4em 2em 4em;
+    }
+
+    .desktop__intro {
+        display: block;
+        text-align: center;
+        width: 40vw;
+    }
+
+    .desktop__intro-img {
+        background-image: url(../images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1% 1%;
+        height: 50vh;
+        width: 50vw;
+        
+    }
+
+    .desktop__intro-title, .desktop__intro-text {
+        font-family: 'Josefin Sans';
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .desktop__intro-title {
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 30px;
+    }
+
+}
+
+
